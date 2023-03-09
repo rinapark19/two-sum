@@ -5,5 +5,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
                 if nums[i] + nums[i + 1] == target:
                     ans = [i, i + 1]
                     return ans
-                
-print(twoSum([1,2], 3))
